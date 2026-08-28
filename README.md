@@ -1,5 +1,5 @@
 # CMPG325-Mmala-Courier-Services-Project
-# CMPG325-2026-045 — Mmala Courier Services Network Project
+# CMPG325-2026— Mmala Courier Services Network Project
 
 Individual semester project for CMPG 325 (Computer Networks), North-West University.
 
