@@ -1,0 +1,10 @@
+IP Addressing Plan
+The addressing block 172.30.22.0/23 is divided into subnets to support departmental VLANs, printers, and CCTV cameras. Each VLAN is allocated a range that ensures efficient use of addresses while keeping traffic isolated.
+•	Courier Operations VLAN: 172.30.22.0/25 → 126 usable addresses for courier staff PCs.
+•	Administration VLAN: 172.30.22.128/26 → 62 usable addresses for management PCs.
+•	Support VLAN: 172.30.22.192/26 → 62 usable addresses for auxiliary services.
+•	Printer VLAN: 172.30.22.256/27 → 30 usable addresses, enough for shared printers.
+•	CCTV VLAN: 172.30.22.288/28 → 14 usable addresses, sufficient for four cameras with room for expansion.
+
+Inter VLAN routing will be configured on the Layer 3 switch using SVIs. 
+Each VLAN will have a gateway address (first usable IP in the subnet) to manage traffic flow and allow controlled communication where required.
